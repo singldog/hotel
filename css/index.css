@@ -1,0 +1,395 @@
+*{
+    flex:1;
+    margin:0px;
+    padding:0px;
+    border:none;
+}
+body{
+    font-family:V;
+    font-size:12px;
+    background:linear-gradient(rgb(250,239,202),rgb(250,226,143)) no-repeat;
+}
+.container{
+    width:1305px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+}
+@font-face {
+    font-family: DS;
+    src:url("../Fonts/Dancing_Script/DancingScript-Regular.ttf");
+}
+@font-face {
+    font-family: DS;
+    font-weight:bold;
+    src:url("../Fonts/Dancing_Script/DancingScript-Bold.ttf");
+}
+@font-face {
+    font-family: V;
+    src:url("../Fonts/Vollkorn/Vollkorn-Regular.ttf");
+}
+@font-face {
+    font-family: V;
+    font-weight:bold;
+    src:url("../Fonts/Vollkorn/Vollkorn-Bold.ttf");
+}
+h1,h2,h3,h4{
+    font-family:DS;
+}
+h1{
+    font-size:24px;
+}
+h2{
+    font-size:18px;
+}
+h3{
+    font-size:14px;
+}
+h4{
+    font-size:12px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    margin-top:73px;
+    margin-bottom:72px;
+}
+.box-shadow{
+    box-shadow:0 0 5px 2px rgba(0,0,0,0.4),0 5px 10px -8px rgba(0,0,0,0.8);
+}
+/*select*/
+::-moz-selection{
+    background-color:#ffd703;
+}
+/*Hotel V*/
+.HotelV{
+    display:flex;
+    padding-top:24px;
+    flex-direction: column;
+    flex:0 0 103px;
+    padding-left:10px;
+    background:#ffd703;
+}
+.HotelV-block{
+    margin-top:15px;
+    display:flex;
+    flex-direction: column;
+}
+.HotelV h1{
+    flex:0;
+}
+.HotelV-block a{
+    flex:0;
+    padding-top:8px;
+    color:#b4a035;
+    padding-bottom:6px;
+}
+.total{
+    display:flex;
+    flex-direction: row;
+}
+.total>*{
+    padding-top:24px;
+    background-color:white;
+}
+
+/*Hotel detail*/
+.detail{
+    flex:0 0 179px;
+    flex-direction: column;
+    padding-left:10px;
+    padding-right:20px;
+}
+.detail-block{
+    display:flex;
+    padding-left:15px;
+    flex-direction: column;
+    margin-top:15px;
+}
+.detail-block span{
+    display:block;
+    color:#b4b4b4;
+    padding-top:8px;
+    padding-bottom:6px;
+}
+.check{
+    padding-left:5px;
+    border:1px solid #efefef;
+    padding-top:12px;
+    margin-top:17px;
+    padding-bottom:17px;
+    display:flex;
+    flex-direction: column;
+}
+.check span{
+    display:block;
+    margin-top:15px;
+}
+.map{
+    margin-top:20px;
+}
+.maps img{
+    margin-top:15px;
+    width:100%;
+    height:100%;
+}
+
+/*advertisement*/
+.adv{
+    padding-left:10px;
+    padding-right:10px;
+    flex:0 0 280px;
+    background:#efefef;
+}
+.ads{
+    display:flex;
+    margin-top:17px;
+    flex-direction: column;
+}
+.ads-block{
+    display:flex;
+    flex-direction: row;
+}
+.ads-block:first-of-type{
+    margin-bottom:5px;
+}
+.ads-block img{
+    width:100%;
+    height:100%;
+}
+.ads-block img:last-of-type{
+    margin-left:10px;
+}
+.adv span{
+    color:#808080;
+    margin-top:20px;
+    display:block;
+    font-size:10px;
+}
+
+/*Meeting and Events*/
+.body{
+    padding-right:10px;
+}
+.body h2{
+    margin-bottom:18px;
+}
+.body-img{
+    margin-top:12px;
+    display:flex;
+    flex-direction: row;
+}
+.body-block{
+    margin-right:10px;
+    height:300px;
+    filter:Grayscale(0.9);
+    position:relative;
+}
+.body-block:last-of-type{
+    margin-right:0px;
+}
+.body-block:hover{
+    filter:Brightness(1.2);
+}
+.body-block span{
+    position:absolute;
+    color:white;
+    font-size:26px;
+    left:14px;
+    bottom:34px;
+    font-weight:bold;
+}
+.body-block img{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+.text{
+    margin-top:14px;
+}
+.photo{
+    margin-top:30px;
+}
+#photo-gallery{
+    width:100%;
+}
+.flower{
+    margin-top:12px;
+    position:relative;
+    height:200px;
+}
+.flower span{
+    position:absolute;
+    left:14px;
+    font-size:14px;
+    color:white;
+    bottom:24px;
+}
+.flower img{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+.tea{
+    display:flex;
+    margin-top:12px;
+    flex-direction: row;
+    margin-bottom:5px;
+}
+.left{
+    padding-top:20px;
+    padding-right:20px;
+}
+.left h2{
+    font-weight:bold;
+}
+.gold{
+    height:129px;
+    padding-top:38px;
+    border-left:3px solid #ffd703;
+}
+.gold span{
+    font-size:26px;
+    display:block;
+    padding-left:16px;
+}
+.right{
+    flex-direction: column;
+    flex:1.4;
+}
+.right img{
+    width:100%;
+    height:100%;
+}
+
+/*bottom*/
+.bottom{
+    padding-bottom:50px;
+    padding-top:43px;
+    background:linear-gradient(#dddddd 0px,#efefef 8px,white 100%);
+}
+.bottom-total{
+    display:flex;
+    flex-direction: row;
+}
+.bottom-total:first-of-type .bottom-block:last-of-type span{
+    padding-right:20px;
+}
+.bottom-block span{
+    margin-top:14px;
+    display:block;
+}
+.icon{
+    margin-top:15px;
+}
+.icon-total{
+    display:flex;
+    flex-direction: row;
+}
+.icon-block{
+    display:flex;
+    margin-left:10px;
+    flex-direction: column;
+}
+.icon-block:first-of-type{
+    margin-left:0px;
+}
+.icon-block img{
+    width:100%;
+    margin-bottom:1px;
+    height:100%;
+}
+#test{
+    padding-right:180px;
+}
+#copy{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+}
+
+/*book a room*/
+.book{
+    position:absolute;
+    right:0px;
+}
+.book-block{
+    background-color: #cccccc;
+    padding-left:5px;
+    width:295px;
+    height:30px;
+    line-height:30px;
+}
+.book-appear{
+    position:relative;
+    perspective: 140px;
+    z-index:99;
+}
+.book-text{
+    height:25px;
+    line-height:25px;
+    font-family: inherit;
+    width:100px;
+}
+.book-num{
+    font-family: inherit;
+    height:25px;
+    line-height:25px;
+    width:50px;
+}
+.top{
+    margin-top:1px;
+}
+#button{
+    height:25px;
+    line-height: 25px;
+    width:150px;
+}
+/*hover*/
+.opacity{
+    opacity:0;
+    top:-40px;
+    transition:0.3s;
+}
+.opacity:nth-of-type(1){
+    transform:rotateX(60deg);
+    transition-delay: 0.2s;
+}
+.opacity:nth-of-type(2){
+    transform:rotateX(-60deg);
+    transition-delay: 0.16s;
+}
+.opacity:nth-of-type(3){
+    transform:rotateX(60deg);
+    transition-delay: 0.12s;
+}
+.opacity:nth-of-type(4){
+    transform:rotateX(-60deg);
+    transition-delay: 0.08s;
+}
+.opacity:nth-of-type(5){
+    transform:rotateX(60deg);
+    transition-delay: 0.04s;
+}
+.book:hover .opacity:nth-of-type(1){
+    transition-delay: 0.05s;
+}
+.book:hover .opacity:nth-of-type(2){
+    transition-delay: 0.1s;
+}
+.book:hover .opacity:nth-of-type(3){
+    transition-delay: 0.15s;
+}
+.book:hover .opacity:nth-of-type(4){
+    transition-delay: 0.2s;
+}
+.book:hover .opacity:nth-of-type(5){
+    transition-delay: 0.25s;
+}
+.book:hover .opacity{
+    transform:none;
+    opacity:1;
+    top:0px;
+}

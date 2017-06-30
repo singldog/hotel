@@ -1,0 +1,78 @@
+@media only screen and (max-width: 950px) {
+    .container{
+        width:855px;
+    }
+    .adv{
+        display:none;
+    }
+    #test{
+        padding-right:90px;
+    }
+    .gold{
+        height:198px;
+    }
+    .icon-block img{
+        margin-bottom:0px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .container{
+        width:415px;
+        flex-direction: column;
+    }
+    .HotelV{
+        flex:0 0 72px;
+    }
+    .HotelV-block{
+        flex-direction: row;
+        display:flex;
+    }
+    .total{
+        flex-direction: column-reverse;
+    }
+    .total>*{
+        padding-left:10px;
+    }
+    .HotelV-block a{
+        flex:1;
+    }
+    .body-block span{
+        font-size:18px;
+    }
+    .tea{
+        flex-direction: column-reverse;
+    }
+    .right{
+        flex-direction: row;
+        display:flex;
+    }
+    .right-block:first-of-type{
+        margin-right:10px;
+    }
+    .gold{
+        height:94px;
+    }
+    .detail-block{
+        display:none;
+    }
+    .detail{
+        padding-right:10px;
+    }
+    .bottom-total:last-of-type .bottom-block{
+        margin-top:33px;
+    }
+    .book{
+        width:100%;
+        top:30px;
+    }
+    .book-block{
+        margin:auto;
+    }
+    .first{
+        background:none;
+        text-align:center;
+    }
+    .left{
+        padding-right:0px;
+    }
+}
